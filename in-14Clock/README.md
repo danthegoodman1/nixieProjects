@@ -1,7 +1,7 @@
 # IN-14 Nixie Tube Clock Project
 
 ## Table of Contents:
-- [Versions](##Versions)
+- [Versions](#Versions)
 - Gerber Files:
     - [v1.0](pcbV1.0)
     - [v2.0](pcbV2.0)
