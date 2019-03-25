@@ -6,3 +6,5 @@ Old tech looks cool... like really cool. You can simulate it with LED's, but tha
 
 ## Table of Contents
 - [IN-14 Nixie Tube Clock](in-14Clock)
+- [IN-13 Nixie Tubes](in-13)
+- [6e5 Magic Eye (tuning indicator) tubes]()
