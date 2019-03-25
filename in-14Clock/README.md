@@ -1,12 +1,21 @@
 # IN-14 Nixie Tube Clock Project
 
-## Table of Contents:
+## Table of Contents
 - [Versions](#Versions)
 - Gerber Files:
     - [v1.0](pcbV1.0)
     - [v2.0](pcbV2.0)
 
-## Versions:
+## Purpose
+
+Nixie Tubes are beautiful, no way around it. When I got my first IN-14 tube, I was surprised at how small it was, but I'll upgrade to IN-18 or [These amazing z568m tubes by Dalibor Farny](https://daliborfarny.com/product/rz568m-nixie-tube/) at some point. I really want to get my hands on some F9020AA tubes, but I can't seem to find any.
+
+The clock was a good intro to Nixie tube usage and logic. Using an ESP32 to control the logic for the K155ID1 Nixie drivers ([great resource here](https://archive.fo/euOg7)), NCH6100HV for the power supply, some WS2812b LEDs for under-lighting of the tubes, and some other components to regulate current and change voltages was a goal.
+
+**3/25/19**
+Unfortunately, for the v1.0 PCB I forgot to do copper pours for the top and bottom layer. No big deal, it should still work (but we'll see when it comes). I designed a second version of the PCB using the NCH8200HV which is much smaller and has a fixed 170v output, which is what I was using anyway.
+
+## Versions
 
 ### v1.0:
 
@@ -15,3 +24,5 @@
 - ESP32 (38pin NodeMCU) for control
 - 12v power supply
 - 12v to 5v step down (in fixed mode) to power ESP32, Nixie ICs
+
+### v2.0
