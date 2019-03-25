@@ -16,6 +16,8 @@ I first designed a circuit and logic that would read the time from a i2c RTC mod
 
 ![indexing gif](media/in-14indexing.gif)
 
+_In the background of this gif you can see the exploded capacitor on the yellow power supply. That ZVS capacitor charging supply exploded while I was working on it and may have damaged a 6e5 tube I was using. DO NOT USE THEM THEY ARE INCONSISTENT WITH THEIR OUTPUT SOMETIMES YOU PLUG IT IN AND IT GOES TO LIKE 600V!_
+
 For some reason lighting the 7 started flickering 8. I don't believe it did this initially when I switched over from the UNO to the D1 mini, so I think it might be either the tube or the driver... We'll see when I start putting together the v1.0 PCB when it arrives
 
 **3/25/19**
