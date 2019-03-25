@@ -10,4 +10,4 @@ It was initially called starburst because I wanted it to look like it was explod
 
 I had my friend Anthony help me design a 3D model for the ball. The problem was printing or getting it manufactured was going to be insane for a prototype, so my dad helped my find [this giant dog toy](https://www.indestructibledog.com/products/dogify-indestructible-ball?variant=249773542) that was big, hollow, and rigid that I could use as the body. I will be spray painting it so it doesn't look idiotic with it's stock color.
 
-![Ball]()
+![Ball 3D model](../media/3dmodel.png)
