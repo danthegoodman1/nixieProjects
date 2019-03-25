@@ -20,6 +20,8 @@ _In the background of this gif you can see the exploded capacitor on the yellow 
 
 For some reason lighting the 7 started flickering 8. I don't believe it did this initially when I switched over from the UNO to the D1 mini, so I think it might be either the tube or the driver... We'll see when I start putting together the v1.0 PCB when it arrives
 
+![flickering](media/7flickering8.gif)
+
 **3/25/19**
 Unfortunately, for the v1.0 PCB I forgot to do copper pours for the top and bottom layer. No big deal, it should still work (but we'll see when it comes). I designed a second version of the PCB using the NCH8200HV which is much smaller and has a fixed 170v output, which is what I was using anyway. Designed it with through-hole components so I didn't have to order more parts, and for the tube resistors I will use 20k in order to extend tube life, even though I could use 15k or even 10k. This is really a first prototype after all.
 
