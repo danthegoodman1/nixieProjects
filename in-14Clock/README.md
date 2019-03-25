@@ -14,7 +14,7 @@ The clock was a good intro to Nixie tube usage and logic. Using an ESP32 to cont
 
 I first designed a circuit and logic that would read the time from a i2c RTC module. Once that was working, I got indexing through a single IN-14 tube running from an UNO, then a WEMOS D1 Mini:
 
-[indexing video](media/in-14indexing.gif)
+![indexing gif](media/in-14indexing.gif)
 
 For some reason lighting the 7 started flickering 8. I don't believe it did this initially when I switched over from the UNO to the D1 mini, so I think it might be either the tube or the driver... We'll see when I start putting together the v1.0 PCB when it arrives
 
