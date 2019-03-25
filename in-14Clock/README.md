@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Versions](#Versions)
+- [Notes](#Notes)
 - Gerber Files:
     - [v1.0](pcbV1.0)
     - [v2.0](pcbV2.0)
@@ -22,6 +23,8 @@ For some reason lighting the 7 started flickering 8. I don't believe it did this
 
 ![flickering](media/7flickering8.gif)
 
+## Notes
+
 **3/25/19**
 Unfortunately, for the v1.0 PCB I forgot to do copper pours for the top and bottom layer. No big deal, it should still work (but we'll see when it comes). I designed a second version of the PCB using the NCH8200HV which is much smaller and has a fixed 170v output, which is what I was using anyway. Designed it with through-hole components so I didn't have to order more parts, and for the tube resistors I will use 20k in order to extend tube life, even though I could use 15k or even 10k. This is really a first prototype after all.
 
@@ -36,3 +39,7 @@ Unfortunately, for the v1.0 PCB I forgot to do copper pours for the top and bott
 - 12v to 5v step down (in fixed mode) to power ESP32, Nixie ICs
 
 ### v2.0
+
+- Smaller design
+    - Changed NCH6100HV to NCH8200HV for fixed output voltage and size
+- Actually did copper pours this time

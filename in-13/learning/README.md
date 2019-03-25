@@ -7,3 +7,9 @@ So following part of [this example from SMBaker](http://smbaker.com/experimentin
 ![transistor simulation](../media/IN-13TransistorSimulation.png)
 
 I am sure this will be quite different with actual hardware and using a IN-13 tube, but I wanted to see at what values I get the max current (4.6mA) for the tube at 150v, using 0-3.3v to control the transistor (V2 is labeled at 12v, but it was simulated from 0-3.3v).
+
+I knew for one of my projects I would want to use these tubes for Audio Spectrum Analysis. For that I would need to analyze audio frequencies and map them to amplitudes.
+
+From previous attempts, I knew I would probably have to use a FFT to accomplish this. Fortunately I found the awesome MSGEQ7 chip that would handle 7 bands of audio analysis, good enough for me. So I bought [this dfrobot module](https://www.dfrobot.com/product-514.html) and 2 generic electret mics from Amazon, and got constant output.
+
+Using the scope on my Digilent Eletronics explorer board, I could see that the mics were actually doing what they should, and the module wasn't doing it's job. So I decided to order two of their corresponding [Analog Sound Sensors](https://www.dfrobot.com/product-83.html) as per their usage examples, and got to work on using FFT directly with the microphones while I waited to see if that solution would work. I used modified code from I forget where, and with an UNO saw slow but working results of a 60-band analyzer.
