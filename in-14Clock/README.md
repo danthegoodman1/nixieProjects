@@ -2,6 +2,7 @@
 
 ## Table of Contents
 - [Versions](#Versions)
+    -[Acrylic Emulation](acrylic)
 - [Notes](#Notes)
 - Gerber Files:
     - [v1.0](pcbV1.0)
@@ -22,6 +23,8 @@ _In the background of this gif you can see the exploded capacitor on the yellow 
 For some reason lighting the 7 started flickering 8. I don't believe it did this initially when I switched over from the UNO to the D1 mini, so I think it might be either the tube or the driver... We'll see when I start putting together the v1.0 PCB when it arrives.
 
 ![flickering](media/7flickering8.gif)
+
+I am also working on the [acrylic emulation](acrylic) in parallel with this project, although it is getting a lot less attention then the real tubes.
 
 ## Notes
 
