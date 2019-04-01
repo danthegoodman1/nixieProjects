@@ -34,7 +34,7 @@ Unfortunately, for the v1.0 PCB I forgot to do copper pours for the top and bott
 ## Versions
 
 ### v1.0:
-
+**Changelog:**
 - Initial design
 - NCH6100HV power supply (set at 170v)
 - ESP32 (38pin NodeMCU) for control
@@ -43,8 +43,14 @@ Unfortunately, for the v1.0 PCB I forgot to do copper pours for the top and bott
 
 ### v2.0
 
+**Schematic:**
+![Clock Schematic sheet 1](media/v2.0sp1.png)
+![Clock Schematic sheet 2](media/v2.0sp2.png)
+**PCB:**
+![Clock PCB Design](media/v2.0pcb.png)
+**Changelog:**
 - Smaller design
-    - Changed NCH6100HV to NCH8200HV for fixed output voltage and size
+    - Changed NCH6100HV to NCH8200HV for fixed output voltage and smaller size
 - Actually did copper pours this time
 - Text is Silk Screen instead of copper (lol I am a pro)
 - Actually faced tubes in right direction (man I really sped through this design)
