@@ -47,3 +47,4 @@ Unfortunately, for the v1.0 PCB I forgot to do copper pours for the top and bott
     - Changed NCH6100HV to NCH8200HV for fixed output voltage and size
 - Actually did copper pours this time
 - Text is Silk Screen instead of copper (lol I am a pro)
+- Actually faced tubes in right direction (man I really sped through this design)
