@@ -60,3 +60,5 @@ Finally got around to soldering it, and spent a whole lot fo time debugging. Fir
 - Text is Silk Screen instead of copper (lol I am a pro)
 - Actually faced tubes in right direction (man I really sped through this design)
 - Fixed grounding issue from 4/4/19 log
+- Added DS1307 RTC module
+- Decided to keep not using copper pour
