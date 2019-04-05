@@ -31,6 +31,11 @@ I am also working on the [acrylic emulation](acrylic) in parallel with this proj
 **3/25/19**
 Unfortunately, for the v1.0 PCB I forgot to do copper pours for the top and bottom layer. No big deal, it should still work (but we'll see when it comes). I designed a second version of the PCB using the NCH8200HV which is much smaller and has a fixed 170v output, which is what I was using anyway. Designed it with through-hole components so I didn't have to order more parts, and for the tube resistors I will use 20k in order to extend tube life, even though I could use 15k or even 10k. This is really a first prototype after all.
 
+**4/4/19**
+Finally got around to soldering it, and spent a whole lot fo time debugging. First off, the power supply that was reliable from China didn't work (got stuck at 263v, max rated for 235v and couldn't adjust), so I had to use another one temporarily by soldering it externally to the board. Then I realized I had the IC drivers in backwards (busted 2 of them pulling them out, oops). Then I thought the board was broken, and after desoldering a bunch of stuff realized that the power supply was the problem as I mentioned before. Finally I thought the ICs were busted, but after a bunch of testing, I realized I never merged the ground between the ESP32 and the 12v, 5v GND net... Holding a jumper wire from the GND on the ESP32 to the GND net test pads shows that it lets the one tube that I gave an IC for index through the numbers:
+
+![indexing final board](media/v1Indexing.gif)
+
 ## Versions
 
 ### v1.0:
@@ -54,3 +59,4 @@ Unfortunately, for the v1.0 PCB I forgot to do copper pours for the top and bott
 - Actually did copper pours this time
 - Text is Silk Screen instead of copper (lol I am a pro)
 - Actually faced tubes in right direction (man I really sped through this design)
+- Fixed grounding issue from 4/4/19 log
