@@ -36,6 +36,9 @@ Finally got around to soldering it, and spent a whole lot fo time debugging. Fir
 
 ![indexing final board](media/v1Indexing.gif)
 
+**4/7/19**
+After getting all of the ICs in place to test, I realize 2 things. The first being that the largest digit tube is stuck on 2 or off depending on what is written, (the IC is fine, and after testing continuity of the select pins and the grounding pins the PCB is fine too, so it must be the tube). Second, the PCB footprint seems to account for the tubes being upside down, as it starts at 1, then goes to 0, then counts down from 9 instead of just counting up starting a 0. This is unfortunate as I have already ordered the v2.0 PCB (I can just put the tubes in upside down and mount the feet on the other side, shouldn't be a problem since I probably wont put the tall capacitor in for the LEDs).
+
 ## Versions
 
 ### v1.0:
@@ -62,3 +65,7 @@ Finally got around to soldering it, and spent a whole lot fo time debugging. Fir
 - Fixed grounding issue from 4/4/19 log
 - Added DS1307 RTC module
 - Decided to keep not using copper pour
+
+### v2.1
+**Changelog:**
+- Fixed tubes so they are upright
