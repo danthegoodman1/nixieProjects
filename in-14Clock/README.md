@@ -39,6 +39,9 @@ Finally got around to soldering it, and spent a whole lot fo time debugging. Fir
 **4/7/19**
 After getting all of the ICs in place to test, I realize 2 things. The first being that the largest digit tube is stuck on 2 or off depending on what is written, (the IC is fine, and after testing continuity of the select pins and the grounding pins the PCB is fine too, so it must be the tube). Second, the PCB footprint seems to account for the tubes being upside down, as it starts at 1, then goes to 0, then counts down from 9 instead of just counting up starting a 0. This is unfortunate as I have already ordered the v2.0 PCB (I can just put the tubes in upside down and mount the feet on the other side, shouldn't be a problem since I probably wont put the tall capacitor in for the LEDs).
 
+**4/9/19**
+So the tube actually works, I cannot figure out why the IC, PCB, and tube together didn't work because they all do fine individually.
+
 ## Versions
 
 ### v1.0:
@@ -69,3 +72,6 @@ After getting all of the ICs in place to test, I realize 2 things. The first bei
 ### v2.1
 **Changelog:**
 - Fixed tubes so they are upright
+- Added in separator colon (and praying my voltage divider only divides where I want it to)
+- Added 90v voltage divider and test point
+- Increased width of power traces
